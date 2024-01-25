@@ -5,7 +5,7 @@ const inter = Poppins({ subsets: ['latin'] ,weight:'400'})
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${inter.className} p-4 max-h-screen max-w-screen-3xl`}>
+    <main className={`${inter.className} p-4 max-h-screen max-w-screen-7xl`}>
       <Component {...pageProps} />
     </main>
   )
